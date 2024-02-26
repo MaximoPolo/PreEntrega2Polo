@@ -1,25 +1,25 @@
 body {
     margin: 0;
     padding: 0;
-  }
+}
 
-  main {
+main {
     height: 100vh;
-  }
+}
 
-  #carouselE1 {
+#carouselE1 {
     height: 100vh;
-  }
+}
 
-  .carousel-inner {
+.carousel-inner {
     height: 100vh;
-  }
+}
 
-  .carousel-item img {
+.carousel-item img {
     object-fit: cover;
     height: 100vh;
     width: 100%;
-  }
+}
 
 .tituloNos {
     margin-top: 20vh;
@@ -36,13 +36,13 @@ body {
 
 .logoCoder {
     max-width: 100%;
-      height: auto;
+    height: auto;
 }
 
 .menciones {
     display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .mencion {
@@ -54,11 +54,39 @@ body {
 }
 
 .imagenNosotros {
-      background: url(../imagenes/america-latina-turismojpg.webp) center/cover no-repeat fixed;
+    background: url(../imagenes/america-latina-turismojpg.webp) center/cover no-repeat fixed;
 }
 
 .avatar {
     max-width: 50px;
     height: auto;
     border-radius: 50%;
+}
+
+.cartasDestino {
+    max-width: 100%;
+    margin: 60px auto 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-deck {
+    margin-top: 20px;
+}
+
+.card {
+    border: none;
+    margin-bottom: 20px;
+}
+
+img.card-img-top {
+    max-height: 100%;
+    object-fit: cover;
+}
+
+img.card-img-top {
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
