@@ -1,8 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
 main {
     height: 100vh;
 }
@@ -43,6 +38,7 @@ main {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .mencion {
@@ -65,14 +61,10 @@ main {
 
 .cartasDestino {
     max-width: 100%;
-    margin: 60px auto 20px;
+    margin: 40px auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.card-deck {
-    margin-top: 20px;
 }
 
 .card {
@@ -89,4 +81,85 @@ img.card-img-top {
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+}
+
+.jumbotron {
+    background: url(../imagenes/razones-para-viajar-solo-3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    clear: both;
+}
+
+.social-icons {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+
+    /*intente corregir el error de mil maneras pero no puede ni con chatgpt*/
+    .mencion {
+        width: calc(100% - 20px);
+        margin-right: 10px;
+    }
+
+    .menciones {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}
+
+.headerProducto {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.mainProducto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.detallesViaje {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.specifications {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.productoViaje {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.productoViaje img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
